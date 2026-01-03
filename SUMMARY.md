@@ -6,12 +6,18 @@ This repository now contains a comprehensive Chinese mathematical modeling paper
 
 ## What Was Created
 
-### 1. Main Paper (`数学建模论文.md`)
+### 1. Main Paper (Markdown: `数学建模论文.md`)
 - **Size**: 22KB (643 lines)
 - **Language**: Chinese
 - **Format**: Markdown (easily convertible to Word/PDF)
 
-### 2. Documentation (`论文说明.md`)
+### 2. Main Paper (Word: `数学建模论文.docx`)
+- **Size**: 23KB
+- **Language**: Chinese
+- **Format**: Microsoft Word 2007+ (.docx)
+- **Status**: Ready for submission
+
+### 3. Documentation (`论文说明.md`)
 - **Size**: 4.2KB (146 lines)
 - **Contents**: Usage instructions, paper structure, conversion methods
 - **Language**: Chinese
@@ -90,9 +96,10 @@ The paper is based on existing Python implementations:
 ## How to Use
 
 ### View the Paper
-Open `数学建模论文.md` in any Markdown viewer or editor.
+- **Markdown**: Open `数学建模论文.md` in any Markdown viewer or editor
+- **Word**: Open `数学建模论文.docx` directly (ready for submission)
 
-### Convert to Word
+### Regenerate Word Format (Optional)
 ```bash
 pandoc 数学建模论文.md -o 数学建模论文.docx
 ```
